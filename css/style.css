@@ -448,6 +448,7 @@ b {
 .flex-element {
   width: 380px;
   margin-right: 30px;
+  margin-bottom: 30px;
   /*background-color: tomato;*/
 }
 
