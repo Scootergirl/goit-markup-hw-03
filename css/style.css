@@ -33,7 +33,7 @@ html {
   box-sizing: inherit;
 }
 .page-header {
-  /*outline: 2px solid tomato;*/
+  outline: 2px solid tomato;
 }
 
 /*главная навигация*/
@@ -42,8 +42,8 @@ html {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
-  /*outline: 2px solid tomato;*/
+  width: 1200px;
+  outline: 2px solid tomato;
 }
 
 .logo {
@@ -60,10 +60,15 @@ html {
 }
 
 .box {
-  width: 380px;
-  margin-right: 30px;
-  border: 2px solid blue;
+  /*width: 370px;
+  margin-right: 30px;*/
+  margin-top: 50px;
+  /*border: 2px solid blue;*/
   border-radius: 8px;
+}
+
+.doing-list .box:not(:last-child) {
+  margin-right: 30px;
 }
 
 .site-nav .link {
@@ -72,7 +77,7 @@ html {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  /*outline: 2px solid tomato;*/
+  outline: 2px solid tomato;
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
@@ -80,8 +85,8 @@ html {
 
 .site-nav {
   /*padding-top: 32px;
-  padding-bottom: 32px;*/
-  /*display: block;*/
+  padding-bottom: 32px;
+  display: block;*/
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
@@ -106,7 +111,7 @@ html {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 0;
-  /*outline: 2px solid tomato;*/
+  outline: 2px solid tomato;
 }
 
 .nav-link .item {
@@ -144,8 +149,8 @@ html {
   height: 600px;*/
   /*display: flex;*/
   /*margin-top: 0;
-  margin-bottom: 0;
-  outline: 2px solid tomato;*/
+  margin-bottom: 0;*/
+  outline: 2px solid tomato;
 }
 
 .hero-title {
@@ -154,17 +159,19 @@ html {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  margin-top: 94px;
-  /*outline: 2px solid tomato;*/
+  /*margin-top: 94px;*/
+  outline: 2px solid tomato;
 }
 
 /*наши преимущества*/
 
 .advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
   /*display: flex;*/
   /*margin-top: 94px;*/
   /*display: flex;*/
@@ -176,6 +183,7 @@ html {
   display: flex;
   padding-left: 0;
   margin-bottom: 0;
+  padding-top: 56px;
 }
 
 .img {
@@ -185,9 +193,9 @@ html {
 }
 
 .advantages-img {
-  width: 278px;
+  width: 270px;
   height: 119px;
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
   border-radius: 8px;
 }
 
@@ -202,10 +210,14 @@ html {
   margin-right: 30px;
   padding-left: 0;
 }
-
 .doing {
   /*display: flex;*/
   /*outline: 2px solid tomato;*/
+}
+
+.doing-img {
+  width: 370px;
+  padding-bottom: 94px;
 }
 
 .doing-list {
@@ -219,6 +231,7 @@ html {
 .social-links {
   padding-left: 0px;
   margin-right: 30px;
+  margin-top: 24px;
 }
 
 .section-title {
@@ -229,6 +242,7 @@ html {
   line-height: 0.88;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 30px;
 }
 
 .section-text {
@@ -236,6 +250,8 @@ html {
   font-size: 14px;
   line-height: 1.72;
   letter-spacing: 0.03em;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .doing-title,
@@ -248,20 +264,22 @@ html {
   text-align: center;
   letter-spacing: 0.03em;
   margin: 0;
+  padding-top: 94px;
 }
 
 .container-team {
   display: flex;
   padding-left: 0px;
-  margin-bottom: 0px;
+  margin-top: 50px;
+  padding-bottom: 94px;
 }
 
 .people {
   margin-bottom: 0px;
   padding-left: 0px;
-  width: 278px;
+  width: 270px;
   margin-right: 30px;
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
   border-radius: 8px;
 }
 
@@ -282,6 +300,8 @@ html {
   line-height: 0.84;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
 .team-text {
@@ -290,6 +310,8 @@ html {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 .customers {
@@ -303,12 +325,20 @@ html {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin: 0px;
+  padding-top: 94px;
 }
 
 .customers-list {
   display: flex;
   padding-left: 0px;
   justify-content: space-between;
+  margin: 0px;
+}
+
+.customers-list .item {
+  margin-top: 50px;
+  padding-bottom: 94px;
 }
 
 .customers-list .item:not(:last-child) {
@@ -316,7 +346,7 @@ html {
 }
 
 .customers-list .link {
-  /*outline: 2px solid tomato;*/
+  outline: 2px solid tomato;
   display: block;
   /*background-color: tomato;*/
 }
@@ -354,6 +384,7 @@ html {
 .list-buttons {
   display: flex;
   justify-content: center;
+  margin: 0;
   margin-left: 30px;
 }
 
@@ -426,27 +457,47 @@ b {
   line-height: 2;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 0px;
+  padding-bottom: 21px;
+  border-top: 1px solid tomato;
 }
 
 /*портфолио*/
 
+.section {
+  /*outline: 2px solid tomato;*/
+}
+
+.section .title {
+  margin: 0;
+  padding-top: 91px;
+}
+
 .container-works {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  outline: 2px solid tomato;
+}
+
+.title-portfolio {
+  margin: 0;
 }
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
+  padding-bottom: 94px;
+  margin-top: 34px;
+  margin-bottom: 0;
   /*background-color: teal;*/
 }
 
 .flex-element {
-  width: 380px;
+  width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
   /*background-color: tomato;*/
@@ -461,5 +512,5 @@ b {
 }
 
 .list-buttons .item + .item {
-  margin-left: 30px;
+  margin-left: 8px;
 }
